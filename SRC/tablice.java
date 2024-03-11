@@ -1,8 +1,8 @@
 public class tablice {
 
     public static void main(String[] args) {
-        String[] imiona = new String[3]; // trojka oznacza ilosc miejsc w tablicy, [] wskazuje na typ danych tablica
-        imiona[0] = "Bartek";
+        String[] imiona = new String[3]; // Tworzenie nowej tablicy trojka oznacza ilosc miejsc w tablicy, [] wskazuje na typ danych tablica
+        imiona[0] = "Bartek";  // przypisanie konkretnych wartosci do pol
         imiona[1] = "Adam";
         imiona[2] = "Ania";
 /*
