@@ -8,6 +8,11 @@ public class Footballer extends Person {
         this.footballclub = footballclub;
     }
 
+    @Override
+    public void eat() {
+        System.out.println("I like healthly food");
+    }
+
     public void playfootball() {
         eat();
         walk();

@@ -8,6 +8,13 @@ public class MathTeacher extends Person {
         this.school = school;
     }
 
+
+    @Override
+    public void walk() {
+        super.walk();           // tu 'super' pozala na wywołanie nienadpisanej metody z klasy nadrzednej
+        System.out.println("I walk very fast");
+    }
+
     public void teachMath() {
 
         System.out.println("I'm teaching math");
